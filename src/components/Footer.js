@@ -1,7 +1,10 @@
+import './styles/Footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+        <p>&copy; 2020</p>
+    </footer>
   )
 }
 

@@ -1,8 +1,13 @@
-
+import './styles/Content.css';
 
 const Content = () => {
   return (
-    <div>Content</div>
+    <section className="content">
+        <h1>Content</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+    </section>
   )
 }
 
