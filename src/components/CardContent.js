@@ -1,15 +1,30 @@
 
 
-const CardContent = () => {
-  return (
-    <div className="card-content">
-        <img src="https://vignette.wikia.nocookie.net/strangerthings/images/7/7e/S01E01_Poster.jpg/revision/latest?cb=20160802212051" alt="stranger things" />
-        <div className="card-content-text">
-            <h3>Chapter Two: Vecna's Curse</h3>
-            <p> Fred Benson was killed in Chapter Two: Vecna's Curse. </p>
+const CardContent = (props) => {
+console.log(props);
+
+    return (
+        <div className="card-content">
+            <div className="card-content-header">
+                <h2 className="title-red"> ST </h2>
+            </div>
+            <div className="card-content-body">
+                <div className="card-content-body-item">
+                    <div className="card-content-body-item-photo">
+                        <img src={props.photo} alt=""/>
+                    </div>
+                    <div className="card-content-body-item-text">
+                        <h3 className="title-black">{props.victime}</h3>
+                        <p className="text-black">{props.episode}</p>
+                        <p className="text-black">{props.causeOfDeath}</p>
+                        <p className="text-black">{props.killer}</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-  )
+    )
 }
+
+
 
 export default CardContent;
