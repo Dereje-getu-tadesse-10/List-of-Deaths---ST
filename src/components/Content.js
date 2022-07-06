@@ -1,12 +1,12 @@
-import './styles/Content.css';
+import Card from "./Card"
 
 const Content = () => {
   return (
     <section className="content">
-        <h1>Content</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
     </section>
   )
 }

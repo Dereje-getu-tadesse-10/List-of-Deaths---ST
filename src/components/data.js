@@ -17,14 +17,6 @@ const data = [
     },
     {
         id: 3,
-        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/9/99/Patrickstrangerthings.png/revision/latest/scale-to-width-down/350?cb=20220602230200',
-        victime: 'Patrick McKinney',
-        episode: 'Chapter Five: The Nina Project',
-        causeOfDeath: 'Bones snapped and eyes gouged out',
-        killer: 'Vecna',
-    },
-    {
-        id: 4,
         photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/b/b5/Brenner_-_The_Nina_Project.png/revision/latest/scale-to-width-down/350?cb=20220606135528',
         victime: 'Martin Brenner',
         episode: 'Chapter Eight: Papa ',
@@ -32,7 +24,7 @@ const data = [
         killer: 'Unnamed Military Soldier',
     },
     {
-        id: 5,
+        id: 4,
         photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/c/ca/Eddie_Munson.jpg/revision/latest/scale-to-width-down/350?cb=20220608205857',
         victime: 'Eddie Munson',
         episode: 'Chapter Nine: The Piggyback',
