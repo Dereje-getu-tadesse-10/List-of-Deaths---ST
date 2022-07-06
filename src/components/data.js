@@ -1,7 +1,7 @@
 const data = [
     {
         id: 1,
-        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/8/84/FredBenson.png/revision/latest/scale-to-width-down/350?cb=20220529133228',
+        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/8/84/FredBenson.png',
         victime: 'Fred Benson',
         episode: 'Chapter Two: Vecna\'s Curse',
         causeOfDeath: 'Bones snapped and eyes gouged out',
@@ -9,7 +9,7 @@ const data = [
     },
     {
         id: 2,
-        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/d/d1/Chrissy_ST4.jpeg/revision/latest/scale-to-width-down/350?cb=20220608210406',
+        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/d/d1/Chrissy_ST4.jpeg',
         victime: 'Chrissy Cunningham',
         episode: 'Chapter One: The Hellfire Club',
         causeOfDeath: 'Bones snapped and eyes gouged out ',
@@ -17,7 +17,7 @@ const data = [
     },
     {
         id: 3,
-        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/b/b5/Brenner_-_The_Nina_Project.png/revision/latest/scale-to-width-down/350?cb=20220606135528',
+        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/b/b5/Brenner_-_The_Nina_Project.png/',
         victime: 'Martin Brenner',
         episode: 'Chapter Eight: Papa ',
         causeOfDeath: 'Shot multiple times',
@@ -25,7 +25,7 @@ const data = [
     },
     {
         id: 4,
-        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/c/ca/Eddie_Munson.jpg/revision/latest/scale-to-width-down/350?cb=20220608205857',
+        photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/c/ca/Eddie_Munson.jpg/',
         victime: 'Eddie Munson',
         episode: 'Chapter Nine: The Piggyback',
         causeOfDeath: 'Attacked and bitten',

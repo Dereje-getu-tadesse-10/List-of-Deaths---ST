@@ -4,7 +4,36 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
+.card-content{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.card-content-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 350px;
+}
+
+.card-content-body img{
+    width: 100%;
+    height: 350px;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
 

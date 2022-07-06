@@ -6,11 +6,22 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: 'Stranger things';
+    src: url('./font/Benguiat\ Bold.ttf');
+}
+
 main{
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(15, 0, 17);
+}
+
+@media only screen and (max-width: 1568px) {
+    main{
+        height: 100%;
+    }
 }
