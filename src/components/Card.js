@@ -9,7 +9,7 @@ const Card = () => {
 
             {data.map((item) => {
                 return (
-                    <CardContent key={item.id} photo={item.photo} victime={item.victime} episode={item.episode} causeOfDeath={item.causeOfDeath} killer={item.killer} />
+                    <CardContent key={item.id} {...item} />
                 )
             })}
             
