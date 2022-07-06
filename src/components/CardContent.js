@@ -1,7 +1,7 @@
 
 
-const CardContent = (props) => {
-console.log(props);
+const CardContent = ({ photo, victime, episode, causeOfDeath, killer }) => {
+
 
     return (
         <div className="card-content">
@@ -11,13 +11,13 @@ console.log(props);
             <div className="card-content-body">
                 <div className="card-content-body-item">
                     <div className="card-content-body-item-photo">
-                        <img src={props.photo} alt=""/>
+                        <img src={photo} alt=""/>
                     </div>
                     <div className="card-content-body-item-text">
-                        <h3 className="title-black">{props.victime}</h3>
-                        <p className="text-black">{props.episode}</p>
-                        <p className="text-black">{props.causeOfDeath}</p>
-                        <p className="text-black">{props.killer}</p>
+                        <h3 className="title-black">{victime}</h3>
+                        <p className="text-black">{episode}</p>
+                        <p className="text-black">{causeOfDeath}</p>
+                        <p className="text-black">{killer}</p>
                     </div>
                 </div>
             </div>

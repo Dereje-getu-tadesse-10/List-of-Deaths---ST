@@ -4,15 +4,15 @@ import data from './data';
 
 const Card = () => {
 
+    const element = data.map((item) => {
+        return (
+            <CardContent key={item.id} {...item} />
+        )
+    })
+
     return (
         <div className="card">
-
-            {data.map((item) => {
-                return (
-                    <CardContent key={item.id} {...item} />
-                )
-            })}
-            
+            {element} 
         </div>
     )
 }
