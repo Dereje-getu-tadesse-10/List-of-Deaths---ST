@@ -61,7 +61,9 @@ h3.victime-name{
     left: 0;
     height: 100%;
     width: 100%;
-    /* backdrop filter  */
     backdrop-filter: blur(10px);
-    background-color: rgba(0,0,0,0.3);
+}
+
+.visible{
+    backdrop-filter: blur(0px);
 }

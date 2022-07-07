@@ -6,4 +6,10 @@
     width: 50%;
     height: 40px;
     cursor: pointer;
+    background-color: #f7c6c2;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
 }

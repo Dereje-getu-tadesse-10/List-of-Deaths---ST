@@ -1,8 +1,8 @@
 import styles from './Button.module.css';
 
-const Button = () => {
+const Button = ({onClick}) => {
     return (
-        <button className={styles.alert}>Voir</button>
+        <button onClick={onClick} className={styles.alert}>Voir</button>
     )
 }
 
