@@ -1,11 +1,11 @@
-import { Test } from "../SpoilerAlert/SpoilerAlert";
+import { Alert } from "../SpoilerAlert/SpoilerAlert";
 
 
 const CardContent = ({ photo, victime, episode, causeOfDeath, killer }) => {
 
     return (
         <div className="card-content">
-            <Test />
+            <Alert />
             <div className="card-content-header">
                 <h2 className="title-red"> ST </h2>
             </div>

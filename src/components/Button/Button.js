@@ -1,9 +1,8 @@
-
+import styles from './Button.module.css';
 
 const Button = () => {
-
     return (
-        <button>Voir</button>
+        <button className={styles.alert}>Voir</button>
     )
 }
 
