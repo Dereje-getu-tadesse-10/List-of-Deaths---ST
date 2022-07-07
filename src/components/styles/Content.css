@@ -1,9 +1,12 @@
 .content{
-    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 50px;
     padding: 20px;
+    margin: 50px 0 50px 0;
 }
+
+

@@ -11,17 +11,9 @@
     src: url('./font/Benguiat\ Bold.ttf');
 }
 
-main{
+#root{
     height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: rgb(15, 0, 17);
 }
-
-@media only screen and (max-width: 1568px) {
-    main{
-        height: 100%;
-    }
+main{
+    background-color: rgb(221, 221, 221);
 }

@@ -10,7 +10,7 @@ const CardContent = ({ photo, victime, episode, causeOfDeath, killer }) => {
             <div className="card-content-body">
                 <img src={photo} alt="img perso st"/>
                 <div className="content-text">
-                    <h3 className="title-blue">{victime}</h3>
+                    <h3 className="victime-name">{victime}</h3>
                     <p>Episode : {episode}</p>
                     <p>Cause of death : {causeOfDeath}</p>
                     <p>Killer : {killer}</p>

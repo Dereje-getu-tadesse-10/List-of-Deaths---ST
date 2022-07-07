@@ -4,7 +4,7 @@ const data = [
         photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/8/84/FredBenson.png',
         victime: 'Fred Benson',
         episode: 'Chapter Two: Vecna\'s Curse',
-        causeOfDeath: 'Bones snapped and eyes gouged out',
+        causeOfDeath: 'Bones snapped',
         killer: 'Vecna',
     },
     {
@@ -12,7 +12,7 @@ const data = [
         photo: 'https://static.wikia.nocookie.net/strangerthings8338/images/d/d1/Chrissy_ST4.jpeg',
         victime: 'Chrissy Cunningham',
         episode: 'Chapter One: The Hellfire Club',
-        causeOfDeath: 'Bones snapped and eyes gouged out ',
+        causeOfDeath: 'Bones snapped',
         killer: 'Vecna',
     },
     {
@@ -30,7 +30,8 @@ const data = [
         episode: 'Chapter Nine: The Piggyback',
         causeOfDeath: 'Attacked and bitten',
         killer: 'Demobats',
-    }
+    },
+    
 ]
 
 export default data;

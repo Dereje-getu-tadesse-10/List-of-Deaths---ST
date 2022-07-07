@@ -1,10 +1,10 @@
 import CardContent from './CardContent';
-import './styles/Card.css'
-import data from './data';
+import '../styles/Card.css'
+import data from '../data';
 
 const Card = () => {
 
-    const element = data.map((item) => {
+    const character = data.map((item) => {
         return (
             <CardContent key={item.id} {...item} />
         )
@@ -12,7 +12,7 @@ const Card = () => {
 
     return (
         <div className="card">
-            {element} 
+            {character} 
         </div>
     )
 }
